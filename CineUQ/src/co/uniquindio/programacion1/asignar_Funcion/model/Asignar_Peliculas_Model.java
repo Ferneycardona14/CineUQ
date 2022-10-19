@@ -39,8 +39,6 @@ public class Asignar_Peliculas_Model {
 		funcion3.add("supermascotas.jpg");
 		
 	
-		
-		
 		funciones.add(funcion1);
 		funciones.add(funcion2);	
 		funciones.add(funcion3);	
