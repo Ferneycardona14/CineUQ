@@ -48,7 +48,6 @@ public class Ventana_AsignarPelicula extends JFrame {
 		asignarPelicula = new Asignar_Peliculas_Model();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setResizable(false);
-
 		setSize(500,500);
 		setBounds(700, 700, 1000, 700);
 		contentPane = new JPanel();
@@ -76,9 +75,9 @@ public class Ventana_AsignarPelicula extends JFrame {
 	
 	
 	
-	public void getPeli(Object object, String texto, String posicion) {
+	public void getPeli(Object image, String texto, String posicion) {
 		JButton ButtonPelicula = new JButton("");
-		ButtonPelicula.setIcon(new ImageIcon("/Users/ferney/CineUQ/CineUQ/imagenes/"+object+""));
+		ButtonPelicula.setIcon(new ImageIcon("/Users/ferneycardonagarcia/git/CineUQ/CineUQ/imagenes/"+image+""));
 		ButtonPelicula.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(posicion);
